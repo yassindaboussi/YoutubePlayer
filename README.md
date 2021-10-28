@@ -1,7 +1,7 @@
 <div id="top"></div>
 <h1 align="center"> YoutubePlayer ▶️ </h1>
 
-Desktop application 💻 for Playing Video/Playlist ▶️ of youtube Website 🕸️ <br />
+Desktop application 💻 for Playing ▶️ Video/Playlist 🎬 <br />
 
 ## Screenshots
 Preview App         |
