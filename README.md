@@ -11,7 +11,7 @@ Preview App         |
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Features
-* [x] Play Playlist ▶️
+* [x] Play Video/Playlist ▶️
 * [x] FullScreen ⛶
 * [x] Minimize ➖
 * [x] Pin The Application 📌
