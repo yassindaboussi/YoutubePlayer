@@ -1,0 +1,85 @@
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 20px ;
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+.Applicationlkol{
+    -fx-background-color:transparent;
+    -fx-background-radius: 3em;
+}
+
+.pageApplication{
+    -fx-background-color:#FFFFFF; 
+    -fx-background-radius: 20px 20px 20px 20px;
+}
+
+.Nice{ /*Azre9*/
+    -fx-background-color:  linear-gradient(to right top, #59a0bb, #4667df);
+}
+
+
+.title{
+	-fx-text-fill: white;
+	-fx-font-weight : bold;
+}
+.root{
+	-fx-background-color: transparent;
+}
+.minimize{
+	-fx-text-fill:white;
+	-fx-font-weight : bold;
+}
+.minimize:hover, .minimize:active{
+	-fx-background-color: Gray;
+}
+.fullscreen{
+	-fx-text-fill:white;
+	-fx-font-weight : bold;
+}
+.fullscreen:hover, .fullscreen:active{
+	-fx-background-color: orange;
+}
+.resize{
+	-fx-text-fill:white;
+	-fx-font-weight : bold;
+}
+.resize:hover, .resize:active{
+	-fx-background-color: green;
+}
+.close{
+	-fx-text-fill:white;
+	-fx-font-weight : bold;
+}
+.close:hover, .close:active{
+	-fx-background-color: red;
+}
+.plus{
+	-fx-text-fill:white;
+	-fx-font-weight : bold;
+}
+.plus:hover, .plus:active{
+	-fx-background-color: purple;
+}
+.Min{
+	-fx-text-fill:white;
+	-fx-font-weight : bold;
+}
+.Min:hover, .Min:active{
+	-fx-background-color: Brown ;
+}
+.search{
+	-fx-text-fill:white;
+	-fx-font-weight : bold;
+}
+.search:hover, .search:active{
+	-fx-background-color: Pink  ;
+}
+.pin{
+	-fx-text-fill:white;
+	-fx-font-weight : bold;
+}

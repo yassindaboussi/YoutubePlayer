@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="YoutubePlayer">
+    <output-path>$PROJECT_DIR$/out/artifacts/YoutubePlayer</output-path>
+    <root id="root">
+      <element id="archive" name="YoutubePlayer.jar">
+        <element id="module-output" name="YoutubePlayer" />
+      </element>
+    </root>
+  </artifact>
+</component>

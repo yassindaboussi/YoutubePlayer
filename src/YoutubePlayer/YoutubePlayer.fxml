@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.web.WebView?>
+
+<VBox fx:id="root" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="YoutubePlayer.YoutubePlayerController">
+	<children>
+		<HBox fx:id="titleBar" prefHeight="30.0" styleClass="Nice">
+   			<children>
+ 				<HBox fx:id="title" layoutX="0" onMouseDragged="#titleDragged" onMousePressed="#titleSelected" onMouseReleased="#titleReleased" prefHeight="30.0" HBox.hgrow="ALWAYS">
+   					<padding>
+   						<Insets left="5" top="5" />
+   					</padding>   					
+      				<children>
+      				<Label>
+      					<graphic>
+      						 <ImageView fitWidth="20" preserveRatio="true" smooth="true">
+        						<image>
+          							<Image url="@../img/icon.png" />
+        						</image>
+      						</ImageView>
+      					</graphic>
+      				</Label>
+      					<Label maxWidth="5" minWidth="5" prefWidth="5" />
+      					<Label prefWidth="108.0" styleClass="title" text="Youtube Player" />
+         				<Label fx:id="pin" alignment="CENTER" onMouseClicked="#pin" prefHeight="22.0" prefWidth="67.0" styleClass="pin" text="📌" />
+      				</children>
+   				</HBox>
+            <Label alignment="CENTER" onMouseClicked="#searchicon" prefHeight="30.0" prefWidth="30.0" styleClass="search" text="🔍" />
+            <Label alignment="CENTER" onMouseClicked="#Zoom" prefHeight="30.0" prefWidth="30.0" styleClass="plus" text="➕" />
+            <Label alignment="CENTER" onMouseClicked="#unZoom" prefHeight="30.0" prefWidth="30.0" styleClass="Min" text="➖" />
+   				<Label alignment="CENTER" onMouseClicked="#fullScreen" prefHeight="30.0" prefWidth="30.0" styleClass="fullscreen" text="⛶" />
+   				<Label alignment="CENTER" onMouseClicked="#minimize" prefHeight="30.0" prefWidth="30.0" styleClass="minimize" text="_" />
+   				<Label fx:id="resize" alignment="CENTER" onMouseClicked="#resize" prefHeight="30.0" prefWidth="30.0" styleClass="resize" text="⬜" />
+   				<Label alignment="CENTER" onMouseClicked="#close" prefHeight="30.0" prefWidth="30.0" styleClass="close" text="X" />
+   			</children>
+		</HBox>
+		<AnchorPane VBox.vgrow="ALWAYS">
+			<children>
+				<WebView fx:id="browser" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+					<HBox fx:id="searchBar" prefHeight="30.0" AnchorPane.leftAnchor="45.0" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="10.0">
+					<children>
+						<TextField fx:id="search" prefHeight="20.0" promptText="YouTube video/playlist URL" HBox.hgrow="ALWAYS" />
+					</children>
+				</HBox>
+			</children>
+		</AnchorPane>
+	</children>
+</VBox>
