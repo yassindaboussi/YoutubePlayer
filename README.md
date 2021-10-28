@@ -12,8 +12,8 @@ Preview App         |
 
 ## Features
 * [x] Play Playlist ▶️
-* [x] FullScreen 
-* [x] Minimize
-* [x] Pin The Application
+* [x] FullScreen ⛶
+* [x] Minimize ➖
+* [x] Pin The Application 📌
 
 <p align="right">(<a href="#top">back to top</a>)</p>
